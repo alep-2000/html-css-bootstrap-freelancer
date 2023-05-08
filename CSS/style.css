@@ -66,3 +66,26 @@
     margin-top: 20px;
 }
 /* END MAIN */
+/* FOOTER */
+.background-6{
+    background-color: #3a546d;
+    height: 250px;
+}
+
+.background-grey{
+    background-color: grey;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.background-7{
+    background-color: #2c3e50;
+    height: 90px;
+}
+
+.background-gold{
+    background-color: gold;
+    height: 60px;
+    margin-top: 20px;
+}
+/* END FOOTER */
