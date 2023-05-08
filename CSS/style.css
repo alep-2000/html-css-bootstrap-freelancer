@@ -54,4 +54,15 @@
     height: 300px;
     margin-top: 20px;
 }
+
+.background-5{
+    background-color: white;
+    height: 320px;
+}
+
+.background-brown{
+    background-color: brown;
+    height: 280px;
+    margin-top: 20px;
+}
 /* END MAIN */
