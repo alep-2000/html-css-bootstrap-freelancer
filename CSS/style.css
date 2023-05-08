@@ -32,6 +32,10 @@
     height: 1500px;
 }
 
+.medium{
+    height: 820px;
+}
+
 .background-orange{
     background-color: orange;
     height: 100px;
@@ -41,7 +45,7 @@
 .background-blue{
     background-color: blue;
     height: 200px;
-    margin-bottom: 20px;
+    margin: 20px 3px;
 }
 
 .background-4{
