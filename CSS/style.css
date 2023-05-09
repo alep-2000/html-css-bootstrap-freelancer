@@ -24,6 +24,7 @@
 }
 /* END HEADER */
 /* MAIN */
+/* JUMBOTRON */
 #jumbotron{
     background-color: #1abc9c;
     margin-top: 30px;
@@ -35,7 +36,7 @@
     position: relative;
 }
 
-.center, .position{
+.center{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,7 +67,7 @@
     border-radius: 10px;
 }
 
-#margin-left{
+.margin-left{
     margin-left: 60px;
 }
 
@@ -75,16 +76,16 @@
     color: white;
     text-align: center;
 }
-
+/* END JUMBOTRON */
+/* BACKGROUND-2 */
 #background-2{
     background-color: white;
     margin: 10px 0;
 }
 
 .content-orange{
-    height: 50px;
+    height: 100px;
     margin: 40px 0 0;
-    position: relative;
 }
 
 .content-orange h2{
@@ -95,12 +96,14 @@
 .content-orange hr, .content-orange i{
     display: inline-block;
     vertical-align: middle;
+    margin: 10px 0;
 }
 
 .content-orange hr{
     width: 100px;
     border: 2px solid black;
     opacity: 1;
+    border-radius: 10px;
 }
 
 .content-blue{
@@ -112,14 +115,15 @@ img{
     height: 200px;
     background-size: cover;
 }
-
+/* END BACKGROUND-2 */
+/* BACKGROUND-3 */
 #background-3{
     background-color: #1abc9c;
     margin: 10px 0;
 }
 
 .content-black{
-    height: 80px;
+    height: 100px;
     margin: 10px 0;
     position: relative;
 }
@@ -129,6 +133,10 @@ img{
     color: white;
     text-align: center;
 }
+
+.linea-stella{
+    text-align: center;
+  }
 
 .content-black hr, .content-black i{
     color: white;
@@ -144,18 +152,21 @@ img{
     border-radius: 10px;
 }
 
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .content-pink{
     height: 80px;
-    margin: 10px 0;
+    margin: 10px 0 100px;
 }
 
 .content-pink p{
     font-size: 14px;
     color: white;
-}
-
-.content-pink #paragraph{
-    margin-left: 150px;
 }
 
 .color{
@@ -175,7 +186,8 @@ img{
 .fa-download{
     font-size: 15px;
 }
-
+/* END BACKGROUND-3 */
+/* BACKGROUND-4 */
 #background-4{
     background-color: white;
     margin: 10px 0;
@@ -215,8 +227,7 @@ input, textarea{
     border-top: none;
     border-left: none;
     border-right: none;
-    width: 50%;
-    margin-left: 300px;
+    width: 100%;
     color: rgb(51, 51, 51);
 }
 
@@ -227,8 +238,10 @@ textarea::placeholder{
 textarea{
     height: 130px;
 }
+/* END BACKGROUND-4 */
 /* END MAIN */
 /* FOOTER */
+/* TOP-FOOTER */
 .top-footer{
     background-color: #3a546d;
 }
@@ -244,22 +257,78 @@ textarea{
 }
 
 .content-goldenrod button{
-    margin: 10px 300px 0;
+    margin: 10px 0 0;
 }
 
 .content-grey{
-    background-color: grey;
-    height: 220px;
-    margin: 10px 0;
+    height: 100px;
+    margin: 5px 0;
+}
+
+.icons{
+    text-align: center;
+}
+
+.fa-facebook-f, .fa-google-plus-g, .fa-twitter, .fa-linkedin-in{
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 18px;
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.fa-facebook-f{
+    padding: 10px 12px;
+}
+
+.fa-google-plus-g{
+    padding: 10px 8px;
+}
+
+.fa-twitter, .fa-linkedin-in{
+    padding: 10px;
+}
+
+.content-grey h4, .content-grey p, .content-grey i{
+    color: white;
+    text-align: center;
+}
+
+.content-grey h4{
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+
+.content-grey p{
+    font-size: 12px;
+}
+
+.content-grey span{
+    color: #1abc9c;
 }
 
 .bottom-footer{
     background-color: #2c3e50;
 }
-
+/* END TOP-FOOTER */
+/* BOTTOM-FOOTER */
 .content-gold{
-    background-color: gold;
     height: 60px;
     margin: 10px 0;
+    position: relative;
 }
+
+.content-gold div{
+    font-size: 10px;
+    color: white;
+}
+
+
+.copy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* END BOTTOM-FOOTER */
 /* END FOOTER */
