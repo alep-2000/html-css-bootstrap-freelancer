@@ -183,19 +183,68 @@ img{
 
 .content-purple{
     height: 100px;
-    background-color: purple;
     margin: 10px 0;
+    position: relative;
+}
+
+.content-purple h2{
+    text-align: center;
+}
+
+.content-purple hr, .content-purple i{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.content-purple hr{
+    width: 100px;
+    border: 2px solid black;
+    opacity: 1;
+    border-radius: 10px;
 }
 
 .content-goldenrod{
     height: 300px;
-    background-color: goldenrod;
     margin: 10px 0;
+}
+
+input, textarea{
+    background-color: transparent;
+    border:1px solid rgb(119, 118, 118);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    margin-left: 300px;
+    color: rgb(51, 51, 51);
+}
+
+textarea::placeholder{
+    color: rgb(51, 51, 51);
+}
+
+textarea{
+    height: 130px;
 }
 /* END MAIN */
 /* FOOTER */
 .top-footer{
     background-color: #3a546d;
+}
+
+.green{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.green:hover{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.content-goldenrod button{
+    margin: 10px 300px 0;
 }
 
 .content-grey{
