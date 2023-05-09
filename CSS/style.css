@@ -26,13 +26,52 @@
 /* MAIN */
 #jumbotron{
     background-color: #1abc9c;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .content-big{
-    background-color: yellow;
-    height: 300px;
-    margin: 10px 0 ;
+    height: 380px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-big img{
+    width: 150px;
+    margin: 0 110px 10px;
+}
+
+.content-big h1{
+    color: white;
+}
+
+.content-big hr, .content-big i{
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.content-big hr{
+    width: 100px;
+    border: 2px solid white;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+#margin-left{
+    margin-left: 60px;
+}
+
+.content-big h4{
+    font-size: 16px;
+    color: white;
 }
 
 #background-2{
