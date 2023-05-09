@@ -78,7 +78,7 @@
 
 #background-2{
     background-color: white;
-    margin: 10px 100px;
+    margin: 10px 0;
 }
 
 .content-orange{
@@ -119,15 +119,61 @@ img{
 }
 
 .content-black{
-    background-color: black;
+    height: 80px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.content-black h2{
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+
+.content-black hr, .content-black i{
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.content-black hr{
+    width: 100px;
+    border: 2px solid white;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.content-pink{
     height: 80px;
     margin: 10px 0;
 }
 
-.content-pink{
-    background-color: pink;
-    height: 300px;
-    margin: 10px 0;
+.content-pink p{
+    font-size: 14px;
+    color: white;
+}
+
+.content-pink #paragraph{
+    margin-left: 150px;
+}
+
+.color{
+    color: white;
+    border: 1px solid white;
+}
+
+.color:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+.color span, .color .fa-download{
+    vertical-align: middle;
+}
+
+.fa-download{
+    font-size: 15px;
 }
 
 #background-4{
